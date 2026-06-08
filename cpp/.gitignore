@@ -1,0 +1,43 @@
+docs/
+
+# CMake build artifacts
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled objects
+*.o
+*.a
+*.so
+*.dylib
+
+# Executables
+ring_tree_test
+ring_tree_bench
+
+# Test outputs
+test_output.txt
+
+# Valgrind/Sanitizer
+*.plist
+vgcore.*
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build logs
+CMakeFiles/
+cmake_install.cmake
